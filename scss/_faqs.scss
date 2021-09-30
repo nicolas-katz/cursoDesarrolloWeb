@@ -1,0 +1,134 @@
+// section-cita
+
+.section-cita {
+    padding: 42px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-cita h5 {
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
+
+// section-faqs 320
+
+.section-faqs {
+    padding: 52px 0;
+}
+
+.section-faqs h6 {
+    font-weight: 800;
+    color: rgb(189, 184, 184);
+    text-align: center;
+}
+
+.section-faqs h3 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}    
+
+.accordion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.accordion-item {
+    width: 92% !important;
+    margin: 14px 0 !important;
+    background: #212529 !important;
+    color: white !important;
+}
+
+// section-faqs 540
+
+@media only screen and (min-width: 540px) { 
+    .section-faqs h3 {
+        font-size: 28px;
+    }    
+
+    .accordion-item {
+        width: 84% !important;
+    }
+}
+
+// section-faqs 768
+
+@media only screen and (min-width: 768px) { 
+    .section-faqs h3 {
+        font-size: 32px;
+    }    
+
+    .accordion-item {
+        width: 78% !important;
+    }
+}
+
+// section-faqs 992
+
+@media only screen and (min-width: 992px) { 
+    .section-faqs h3 {
+        font-size: 36px;
+    }    
+
+    .accordion-item {
+        width: 72% !important;
+    }
+}
+
+// section-dejarpregunta 320
+
+.section-dejarpregunta {
+    padding: 80px 0;
+}
+
+.section-dejarpregunta .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-dejarpregunta {
+    color: white !important;
+    font-weight: 600 !important;
+    background: transparent !important;
+    border: white 2px solid !important;
+    width: 80%;
+    height: 60px;
+}
+
+.btn-dejarpregunta:hover {
+    background: white !important;
+    border: white 2px solid !important;
+    color: #212529 !important;
+}
+
+// section-dejarpregunta 768
+
+@media only screen and (min-width: 768px) {
+    .section-dejarpregunta {
+        padding: 80px 0;
+    }
+
+    .btn-dejarpregunta {
+        width: 50%;
+        height: 80px;
+        font-size: 24px !important;
+        font-weight: 700 !important;
+    }
+}
+
+// section-dejarpregunta 992
+
+@media only screen and (min-width: 992px) {
+    .btn-dejarpregunta {
+        width: 40%;
+    }
+}

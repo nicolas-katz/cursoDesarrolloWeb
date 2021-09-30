@@ -1,0 +1,381 @@
+// section-cita
+
+.section-cita {
+    padding: 42px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-cita h5 {
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
+
+// section-quienessomos 320
+
+.section-quienessomos {
+    padding: 80px 0 40px 0;
+}
+
+.section-quienessomos .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-quienessomos-texto h6 {
+    font-weight: 800;
+    color: rgb(172, 172, 172);
+}
+
+.section-quienessomos-texto h3 {
+    padding: 8px 0 16px 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.section-quienessomos-texto p {
+    font-size: 14px;
+    width: 100%;
+}
+
+.section-quienessomos-imagen {
+    width: 100%;
+    margin-top: 32px;
+}
+
+.section-quienessomos-imagen img {
+    width: 100%;
+    height: 320px;
+}
+
+// section-quienessomos 540
+
+@media only screen and (min-width: 540px) {
+    .section-quienessomos-texto p {
+        font-size: 14px;
+        width: 90%;
+    }
+    
+    .section-quienessomos-imagen img {
+        width: 90%;
+    }
+}
+
+// section-quienessomos 768
+
+@media only screen and (min-width: 768px) {
+    .section-quienessomos .container {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        grid-template-areas: "texto imagen";
+    }
+
+    .section-quienessomos-texto {
+        grid-area: texto;
+    }
+
+    .section-quienessomos-texto h3 {
+        font-size: 30px;
+        width: 70%;
+    }
+
+    .section-quienessomos-texto p {
+        font-size: 14px;
+    }
+
+    .section-quienessomos-imagen img {
+        height: 340px;
+        width: 100%;
+    }
+
+    .section-quienessomos-imagen {
+        grid-area: imagen;
+    }
+}
+
+// section-quienessomos 992
+
+@media only screen and (min-width: 992px) {
+    .section-quienessomos .container {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-areas: "texto imagen";
+    }
+    
+    .section-quienessomos-texto h3 {
+        font-size: 34px;
+    }
+
+    .section-quienessomos-texto p {
+        font-size: 16px;
+    }    
+
+    .section-quienessomos-imagen img {
+        height: 400px;
+        margin-top: -24px;
+    }
+}
+
+// section-historia 320
+
+.section-historia {
+    padding: 40px 0;
+}
+
+.section-historia .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-historia-texto h6 {
+    font-weight: 800;
+    color: rgb(172, 172, 172);
+}
+
+.section-historia-texto h3 {
+    padding: 8px 0 16px 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.section-historia-texto p {
+    font-size: 14px;
+    width: 100%;
+}
+
+.section-historia-imagen {
+    width: 100%;
+    margin-top: 32px;
+}
+
+.section-historia-imagen img {
+    width: 100%;
+    height: 320px;
+}
+
+// section-historia 540
+
+@media only screen and (min-width: 540px) {
+    .section-historia-texto p {
+        font-size: 14px;
+        width: 90%;
+    }
+    
+    .section-historia-imagen img {
+        width: 90%;
+    }
+}
+
+// section-historia 768
+
+@media only screen and (min-width: 768px) {
+    .section-historia .container {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        grid-template-areas: "imagen texto";
+        grid-gap: 32px;
+    }
+
+    .section-historia-texto {
+        grid-area: texto;
+    }
+
+    .section-historia-texto h3 {
+        font-size: 30px;
+        width: 70%;
+    }
+
+    .section-historia-texto p {
+        font-size: 14px;
+    }
+
+    .section-historia-imagen img {
+        height: 340px;
+        width: 100%;
+    }
+
+    .section-historia-imagen {
+        grid-area: imagen;
+    }
+}
+
+// section-historia 992
+
+@media only screen and (min-width: 992px) {
+    .section-historia .container {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-areas: "imagen texto";
+    }
+    
+    .section-historia-texto h3 {
+        font-size: 34px;
+    }
+
+    .section-historia-texto p {
+        font-size: 16px;
+    }    
+
+    .section-historia-imagen img {
+        height: 400px;
+        margin-top: -24px;
+    }
+}
+
+// section-objetivo 320
+
+.section-objetivo {
+    padding: 40px 0 80px 0;
+}
+
+.section-objetivo .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-objetivo-texto h6 {
+    font-weight: 800;
+    color: rgb(172, 172, 172);
+}
+
+.section-objetivo-texto h3 {
+    padding: 8px 0 16px 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.section-objetivo-texto p {
+    font-size: 14px;
+    width: 100%;
+}
+
+.section-objetivo-imagen {
+    width: 100%;
+    margin-top: 32px;
+}
+
+.section-objetivo-imagen img {
+    width: 100%;
+    height: 320px;
+}
+
+// section-objetivo 540
+
+@media only screen and (min-width: 540px) {
+    .section-objetivo-texto p {
+        font-size: 14px;
+        width: 90%;
+    }
+    
+    .section-objetivo-imagen img {
+        width: 90%;
+    }
+}
+
+// section-objetivo 768
+
+@media only screen and (min-width: 768px) {
+    .section-objetivo .container {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        grid-template-areas: "texto imagen";
+    }
+
+    .section-objetivo-texto {
+        grid-area: texto;
+    }
+
+    .section-objetivo-texto h3 {
+        font-size: 30px;
+        width: 70%;
+    }
+
+    .section-objetivo-texto p {
+        font-size: 14px;
+    }
+
+    .section-objetivo-imagen img {
+        height: 340px;
+        width: 100%;
+    }
+
+    .section-objetivo-imagen {
+        grid-area: imagen;
+    }
+}
+
+// section-objetivo 992
+
+@media only screen and (min-width: 992px) {
+    .section-objetivo .container {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-areas: "texto imagen";
+    }
+    
+    .section-objetivo-texto h3 {
+        font-size: 34px;
+    }
+
+    .section-objetivo-texto p {
+        font-size: 16px;
+    }    
+
+    .section-objetivo-imagen img {
+        height: 400px;
+        margin-top: -24px;
+    }
+}
+
+// section-sumarse-al-equipo 320
+
+.section-sumarse-al-equipo {
+    padding: 80px 0;
+}
+
+.section-sumarse-al-equipo .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-equipo {
+    color: white !important;
+    font-weight: 600 !important;
+    background: transparent !important;
+    border: white 2px solid !important;
+    width: 80%;
+    height: 60px;
+}
+
+.btn-equipo:hover {
+    background: white !important;
+    border: white 2px solid !important;
+    color: #212529 !important;
+}
+
+// section-sumarse-al-equipo 768
+
+@media only screen and (min-width: 768px) {
+    .section-sumarse-al-equipo {
+        padding: 80px 0;
+    }
+
+    .btn-equipo {
+        width: 50%;
+        height: 80px;
+        font-size: 24px !important;
+        font-weight: 700 !important;
+    }
+}
+
+// section-sumarse-al-equipo 992
+
+@media only screen and (min-width: 992px) {
+    .btn-equipo {
+        width: 40%;
+    }
+}

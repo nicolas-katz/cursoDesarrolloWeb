@@ -1,0 +1,35 @@
+// Reset CSS
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+// Header
+@import 'header';
+
+// Main
+@import 'main';
+
+// Footer 
+@import 'footer';
+
+// Index
+@import 'index';
+
+// Carrera
+@import 'carrera';
+
+// Nosotros 
+@import 'nosotros';
+
+// FAQs 
+@import 'faqs';
+
+// Contacto
+@import 'contacto';
+
+// Plataforma
+@import 'plataforma';

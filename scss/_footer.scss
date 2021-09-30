@@ -1,0 +1,210 @@
+// 320
+
+footer {
+    padding: 20px 0;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.empresa h4 {
+    color: black;
+    text-shadow: 2px 2px 2px rgb(124, 123, 123);
+    font-family: 'Knewave', cursive !important;
+    font-size: 36px;
+    padding: 20px 0;
+}
+
+.empresa p {
+    font-size: 16px;
+}
+
+.links, .consultas {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 10px 0;
+}
+
+.links h5, .consultas h5, .redes h5, .suscripcion h5 {
+    font-weight: 700;
+    font-size: 18px;
+    padding-bottom: 6px;
+}
+
+.links a, .consultas a {
+    padding: 4px 0;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.links a:hover, .consultas a:hover {
+    opacity: .7;
+    color: rgb(0, 0, 0);
+}
+
+.foot-container {
+    margin-top: 16px;
+}
+
+.redes i {
+    margin: 2px 0 24px 0;
+    padding: 12px;
+    margin-right: 8px;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    background: #212529 !important;
+}
+
+.redes i:hover {
+    opacity: 0.7;
+}
+
+.suscripcion .input {
+    display: flex;
+    margin-top: 4px;
+    align-items: center;
+}
+
+.suscripcion .input input {
+    margin-right: 8px;
+    border-radius: 4px;
+    width: 180px;
+    height: 42px;
+    padding: 4px;
+    border: #212529 2px solid;
+    background: transparent;
+}
+
+.suscripcion .input i {
+    border: transparent;
+    padding: 12px;
+    font-size: 16px;
+    color: white !important;
+    border-radius: 4px;
+    background: #212529 !important;
+}
+
+.suscripcion .input i:hover {
+    opacity: 0.7;
+}
+
+// 540
+
+@media only screen and (min-width: 540px) {
+    .empresa p, .suscripcion h5 {
+        width: 80%;
+    }
+    
+    .suscripcion .input input {
+        width: 200px;
+    } 
+}
+
+// 768
+
+@media only screen and (min-width: 768px) {
+    footer {
+        padding: 40px 0;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 1fr auto;
+        grid-template-areas: 
+        "empresa links consultas" 
+        "foot-container foot-container foot-container";
+    }
+
+    .empresa {
+        grid-area: empresa;
+        grid-row-start: 1;
+        grid-column-start: 1;
+        grid-column-end: 6;
+    }
+
+    .links {
+        grid-area: links;
+        grid-row-start: 1;
+        grid-column-start: 6;
+        grid-column-end: 9;
+    }
+
+    .consultas {
+        grid-area: consultas;
+        grid-row-start: 1;
+        grid-column-start: 9;
+        grid-column-end: 13;
+    }
+
+    .foot-container {
+        grid-area: foot-container;
+        display: flex;
+        flex-direction: row;
+        grid-column-start: 1;
+        grid-column-end: 13;
+    }
+}
+
+// 992
+
+@media only screen and (min-width: 992px) {
+    footer {
+        padding: 40px 0;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 1fr;
+        grid-template-areas: "empresa links consultas foot-container";
+    }
+
+    .empresa {
+        grid-area: empresa;
+        grid-row-start: 1;
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+
+    .links {
+        grid-area: links;
+        grid-row-start: 1;
+        grid-column-start: 5;
+        grid-column-end: 7;
+    }
+
+    .consultas {
+        grid-area: consultas;
+        grid-row-start: 1;
+        grid-column-start: 7;
+        grid-column-end: 10;
+    }
+
+    .foot-container {
+        grid-area: foot-container;
+        grid-row-start: 1;
+        display: flex;
+        flex-direction: column;
+        grid-column-start: 10;
+        grid-column-end: 13;
+    }
+
+    .suscripcion h5 {
+        width: 100%;
+    }
+}

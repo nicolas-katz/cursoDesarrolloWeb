@@ -1,0 +1,433 @@
+// Index 320
+
+.main-index {
+    padding: 60px 0;
+}
+
+.main-index-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-index h1 {
+    color: white;
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    padding-bottom: 12px;
+}
+
+.main-index h5 {
+    color: white;
+    font-size: 14px;
+}
+
+.main-index-text--button .btn-main {
+    border: 2px solid rgb(165, 165, 224) !important;
+    border-radius: 60px !important;
+    background: rgb(165, 165, 224) !important;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 20px;
+    transition: 1s;
+}
+
+.main-index-text--button .btn-main:hover {
+    background: transparent !important;
+    border: white 2px solid !important;
+}
+
+.main-index-text--button i {
+    font-size: 16px;
+    color: white;
+    margin-right: 8px;
+}
+
+.main-index-text--button i:hover {
+    color: rgb(165, 165, 224) !important;
+}
+
+.main-index-text--button p {
+    font-size: 16px;
+    color: white;
+}
+
+// Index 425
+
+@media only screen and (min-width: 425px) {
+    .main-index {
+        padding: 80px 0;
+    }
+
+    .main-index-text h5 {
+        width: 90%;
+    }
+
+    .main-index-text--button {     
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-index-text--button i {
+        margin-top: 12px;
+        margin-left: 32px;
+    }
+}
+
+// Index 768
+
+@media only screen and (min-width: 768px) {
+    .main-index {
+        padding: 100px 0;
+    }
+
+    .main-index-text h1 {
+        font-size: 42px;
+        letter-spacing: 2px;
+    }
+    
+    .main-index-text h5 {
+        width: 78%;
+    }
+
+    .main-index-text--button {     
+        margin-top: 20px;
+    }
+
+    .main-index-text--button .btn-main {
+        width: 200px;
+    }
+
+    .main-index-text--button i {
+        margin-top: 16px;
+        margin-left: 40px;
+    }
+}
+
+// Index 992
+
+@media only screen and (min-width: 992px) {
+    .main-index {
+        padding: 120px 0;
+    }
+
+    .main-index-text h1 {
+        font-size: 46px;
+        letter-spacing: 3px;
+    }
+    
+    .main-index-text h5 {
+        width: 70%;
+        font-size: 18px;
+    }
+
+    .main-index-text--button {     
+        margin-top: 30px;
+    }
+
+    .main-index-text--button .btn-main {
+        width: 220px;
+    }
+
+    .main-index-text--button i {
+        margin-top: 16px;
+        margin-left: 40px;
+    }
+}
+
+// Index 1200
+
+@media only screen and (min-width: 1200px) {
+    .main-index-text h5 {
+        width: 60%;
+    }
+}
+
+// Carrera 320
+
+.main-carrera {
+    padding: 60px 0;
+}
+
+.main-carrera-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-carrera h1 {
+    color: white;
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    padding-bottom: 12px;
+}
+
+.main-carrera h5 {
+    color: white;
+    font-size: 14px;
+}
+
+.main-carrera-text--button .btn-main {
+    border: 2px solid rgb(165, 165, 224) !important;
+    border-radius: 60px !important;
+    background: rgb(165, 165, 224) !important;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 20px;
+    transition: 1s;
+}
+
+.main-carrera-text--button .btn-main:hover {
+    background: transparent !important;
+    border: white 2px solid !important;
+}
+
+.main-carrera-text--button i {
+    font-size: 20px;
+    color: white;
+    margin-right: 8px;
+}
+
+.main-carrera-text--button i:hover {
+    color: rgb(165, 165, 224) !important;
+}
+
+.main-carrera-text--button p {
+    font-size: 16px;
+    color: white;
+}
+
+// Carrera 425
+
+@media only screen and (min-width: 425px) {
+    .main-carrera {
+        padding: 80px 0;
+    }
+
+    .main-carrera-text h5 {
+        width: 90%;
+    }
+
+    .main-carrera-text--button {     
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-carrera-text--button i {
+        margin-top: 12px;
+        margin-left: 32px;
+    }
+}
+
+// Carrera 768
+
+@media only screen and (min-width: 768px) {
+    .main-carrera {
+        padding: 100px 0;
+    }
+
+    .main-carrera-text h1 {
+        font-size: 42px;
+        letter-spacing: 2px;
+    }
+    
+    .main-carrera-text h5 {
+        width: 78%;
+    }
+
+    .main-carrera-text--button {     
+        margin-top: 20px;
+    }
+
+    .main-carrera-text--button .btn-main {
+        width: 200px;
+    }
+
+    .main-carrera-text--button i {
+        margin-top: 16px;
+        margin-left: 40px;
+    }
+}
+
+// Carrera 992
+
+@media only screen and (min-width: 992px) {
+    .main-carrera {
+        padding: 120px 0;
+    }
+
+    .main-carrera-text h1 {
+        font-size: 46px;
+        letter-spacing: 3px;
+    }
+    
+    .main-carrera-text h5 {
+        width: 70%;
+        font-size: 18px;
+    }
+
+    .main-carrera-text--button {     
+        margin-top: 30px;
+    }
+
+    .main-carrera-text--button .btn-main {
+        width: 220px;
+    }
+
+    .main-carrera-text--button i {
+        margin-top: 16px;
+        margin-left: 40px;
+    }
+}
+
+// Carrera 1200
+
+@media only screen and (min-width: 1200px) {
+    .main-carrera-text h5 {
+        width: 60%;
+    }
+}
+
+// Nosotros 320
+
+.main-nosotros {
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-nosotros h1 {
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: 8px;
+    padding: 40px 0;
+    color: white;
+    text-shadow: 4px 4px 4px black;
+}
+
+// Nosotros 540
+
+@media only screen and (min-width: 540px) {
+    .main-nosotros h1 {
+        font-size: 42px;
+        padding: 60px 0;
+    }
+}
+
+// Nosotros 992
+
+@media only screen and (min-width: 992px) {
+    .main-nosotros {
+        padding: 110px 0;
+    }
+
+    .main-nosotros h1 {
+        font-size: 68px;
+        padding: 80px 0;
+    }
+}
+
+// FAQs 320
+
+.main-faqs {
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-faqs h1 {
+    font-size: 28px;
+    font-weight: 900;
+    letter-spacing: 8px;
+    padding: 40px 0;
+    color: white;
+    text-shadow: 4px 4px 4px black;
+}
+
+// FAQs 425
+
+@media only screen and (min-width: 425px) {
+    .main-faqs h1 {
+        font-size: 32px;
+        padding: 60px 0;
+    }
+}
+
+// FAQs 540
+
+@media only screen and (min-width: 540px) {
+    .main-faqs h1 {
+        font-size: 40px;
+        padding: 60px 0;
+    }
+}
+
+// FAQs 992
+
+@media only screen and (min-width: 992px) {
+    .main-faqs {
+        padding: 114px 0;
+    }
+
+    .main-faqs h1 {
+        font-size: 60px;
+        padding: 80px 0;
+    }
+}
+
+// Contacto 320
+
+.main-contacto {
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-contacto h1 {
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: 8px;
+    padding: 40px 0;
+    color: white;
+    text-shadow: 4px 4px 4px black;
+}
+
+// Contacto 540
+
+@media only screen and (min-width: 540px) {
+    .main-contacto h1 {
+        font-size: 42px;
+        padding: 60px 0;
+    }
+}
+
+// Contatco 992
+
+@media only screen and (min-width: 992px) {
+    .main-contacto {
+        padding: 110px 0;
+    }
+
+    .main-contacto h1 {
+        font-size: 68px;
+        padding: 80px 0;
+    }
+}
